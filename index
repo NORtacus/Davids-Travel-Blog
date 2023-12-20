@@ -1,0 +1,419 @@
+<html lang="en" dir="ltr">
+   <head>
+      <link type="text/css" rel="stylesheet" href="css/index.css"> 
+      <link rel="icon" type="image/x-icon" href="img/favicon9.jpg">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="David’s Travel Blog - Homepage">
+      <meta name="keywords" content="my, travel, blog, europe, asia, trip, trips to, from, travelling">
+      <script src="https://kit.fontawesome.com/a5cb12cc4e.js" crossorigin="anonymous"></script>
+      <title>David’s Travel Blog - Homepage</title>
+   </head>
+<header>
+  <div class="header">
+    <img src="img/header4.jpg" width="100%"  alt="logo">
+    <div class="top-left"><h1><a href="home"><i>Welcome to my Travel Blog!</i></a><h1></div>
+  </div>    
+    </header>
+<nav>
+  <div class="nav" id="headerNav">
+    <a href="#home" class="active1">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Europe <i class="fa fa-caret-down"></i> 
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Norway</a>
+        <a href="#">Sweden</a>
+        <a href="#">Finland</a>
+        <a href="#">Denmark</a>
+        <a href="#">Latvia</a>
+        <a href="#">Estonia</a>
+        <a href="#">Poland</a>
+        <a href="#">England</a>
+        <a href="#">Germany</a>
+        <a href="#">Holland</a>
+        <a href="#">Czech Republic</a>
+        <a href="#">Hungary</a>
+        <a href="#">Bulgaria</a>
+        <a href="#">Spain</a>
+        <a href="#">Greece</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Asia <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Thailand</a>
+        <a href="#">Hong Kong</a>
+        <a href="#">China</a>
+        <a href="#">Vietnam</a>
+        <a href="#">Malaysia</a>
+        <a href="#">Korea</a>
+        <a href="#">Philippines</a>
+        <a href="#">Turkey</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Africa <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Tunisia</a>
+      </div>
+    </div> 
+    <a class="icon" onclick="navBar()">&#9776;</a>
+  </div>
+ </nav>
+<body>
+
+<div class="first-heading"><h3><i>Newest Blog Post:</i></h3></div>
+<div class="carousel">
+  <div class="card-container">
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Varna Zoo</a></i></h3>
+      <p>I love animals, so visiting the local zoo is a must. Varna have their own zoo almost in the middle of the city.</p>
+      <a href="#"><img src="img/bg6.jpg" class="slider-image"></a><div class="slider-tags">07.Aug.2023 - Tags: <i><a href="#" class="underline">
+       Varna</a>, <a href="#" class="underline">Bulgaria</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Day trip to Varna</a></i></h3>
+      <p>The coastal city of Varna is the third largest city in Bulgaria, only half an hour with car/bus away from Golden Sands.</p>
+      <a href="#"><img src="img/bg5(1).jpg" class="slider-image"></a><div class="slider-tags">07.Aug.2023 - Tags: <i><a href="#" class="underline">
+       Varna</a>, <a href="#" class="underline">Bulgaria</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Tourist in Golden Sands</a></i></h3>
+      <p>What can a tourist look forward to in Golden Sands in terms of sightseeing, food, beaches and nightlife?</p>
+      <a href="#"><img src="img/bg3.JPG" class="slider-image"></a><div class="slider-tags">05.Aug.2023 - Tags: <i><a href="#" class="underline">
+       Golden Sands</a>, <a href="#" class="underline">Bulgaria</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Charter Flights</a></i></h3>
+      <p>Trying the charter airline Sunclass Airlines to Golden Sands. What are the differensen from regular a airline?</p>
+      <a href="#"><img src="img/bg2.jpg" class="slider-image"></a><div class="slider-tags">03.Aug.2023 - Tags: <i><a href="#" class="underline">
+       Golden Sands</a>, <a href="#" class="underline">Bulgaria</a>, <a href="#" class="underline">airlines</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Golden Sands Trip</a></i></h3>
+      <p>Package tours can be really cheap, if its last minute. This time I made a bargain with a package to Golden Sands.</p>
+      <a href="#"><img src="img/bg1.jpg" class="slider-image"></a><div class="slider-tags">03.Aug.2023 - Tags: <i><a href="#" class="underline">
+       Golden Sands</a>, <a href="#" class="underline">Bulgaria</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Stockholm, Sweden</a></i></h3>
+      <p>Four days in the swedish capitol Stockholm with sightseeing around the city that includes boattrip and walk in old town.</p>
+      <a href="#"><img src="img/ba1.JPG" class="slider-image"></a><div class="slider-tags">13.June.2023 - Tags: <i><a href="#" class="underline">
+       Stockholm</a>, <a href="#" class="underline">Sweden</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Public transport in Stockholm</a></i></h3>
+      <p>A perfect way to explore the sewdish capitol is seeing it from the many canal boats, metro, trams or buses.</p>
+      <a href="#"><img src="img/ba2.JPG" class="slider-image"></a><div class="slider-tags">15.June.2023 - Tags: <i><a href="#" class="underline">
+       Stockholm</a>, <a href="#" class="underline">Sweden</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Tallink Silja Line to Helsinki</a></i></h3>
+      <p>A three-day round trip on the ferry with Tallink Silja Line to the finnish capitol Helsinki consists of spectacular views.</p>
+      <a href="#"><img src="img/ba3.JPG" class="slider-image"></a><div class="slider-tags">17.June.2023 - Tags: <i><a href="#" class="underline">
+       Stockholm</a>, <a href="#" class="underline">Sweden</a>, <a href="#" class="underline">cruise</a> </i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Day trip in Helsinki</a></i></h3>
+      <p>The Silja Line ferry from Stockholm visits Helsinki for 7 hours, so we have fair amount of time for sightseeing in the city center.</p>
+      <a href="#"><img src="img/ba4.JPG" class="slider-image"></a><div class="slider-tags">18.June.2023 - Tags: <i><a href="#" class="underline">
+       Helsinki</a>, <a href="#" class="underline">Finland</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Public Transport in Helsinki</a></i></h3>
+      <p>Helsinki have a small metro system, but bigger tram and bus network. I have tried many of the lines around the city.</p>
+      <a href="#"><img src="img/ba5.JPG" class="slider-image"></a><div class="slider-tags">18.June.2023 - Tags: <i><a href="#" class="underline">
+       Helsinki</a>, <a href="#" class="underline">Finland</a></i></div></div></div>
+
+    <div class="card"><div class="slider-text"><h3><i><a href="#" class="underline">Five winter days in Oslo</a></i></h3>
+      <p>I often visit Oslo because of family living there, and while I am there I go sightseeing around the city.</p>
+      <a href="#"><img src="img/dfds1.JPG" class="slider-image"></a><div class="slider-tags">01.Dec.2022 - Tags: <i><a href="#" class="underline">
+       Helsinki</a>, <a href="#" class="underline">Finland</a></i></div></div></div>
+
+     </div>
+    <button class="button" id="button-back">❮</button>
+    <button class="button" id="button-next">❯</button>
+  </div>
+ <script src="js/slider.js"></script>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+      <i class="fa-solid fa-plane"></i>&nbsp;Europe
+      <a href="#"><li>&#x2022;&nbsp;Norway</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Sweden</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Finland</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Denmark</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Estonia</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Latvia</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Poland</li></a>
+      <a href="#"><li>&#x2022;&nbsp;England</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Holland</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Czech Republic</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Hungary</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Bulgaria</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Spain</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Italy</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Greece</li></a>
+      <i class="fa-solid fa-globe"></i>&nbsp;Asia
+      <a href="#"><li>&#x2022;&nbsp;Thailand</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Hong Kong</li></a>
+      <a href="#"><li>&#x2022;&nbsp;China</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Vietnam</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Malaysia</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Korea</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Philippines</li></a>
+      <a href="#"><li>&#x2022;&nbsp;Turkey</li></a>
+      <i class="fa-solid fa-suitcase-rolling"></i>&nbsp;Africa
+      <a href="#"><li>&#x2022;&nbsp;Tunisia</li></a>
+    </ul>
+    <br><br>
+    <div class="right-container">
+      <i><strong>- Hi! I am the traveller, David.</i></strong>
+    <br>
+  <img src="img/me.jpg" class="images-small">
+  <p>I love to travel, especially to Asia to experience other cultures and customs. I hope you enjoy reading my travel blog and find inspiration 
+    to travel yourself!</p>
+ </div>
+  <div class="right-container">
+   <h4>Popular tags;</h4>
+    <i><a href="#" class="underline">trip</a>, <a href="#" class="underline">travel</a>, <a href="#" class="underline">backpacking</a>, 
+       <a href="#" class="underline">asia</a>, <a href="#" class="underline">europe</a>, <a href="#" class="underline">beach</a>, 
+       <a href="#" class="underline">sun</a>, <a href="#" class="underline">sun</a>, <a href="#" class="underline">winter</a>, 
+       <a href="#" class="underline">airplane</a>, <a href="#" class="underline">airlines</a>, <a href="#" class="underline">bulgaria</a>, 
+       <a href="#" class="underline">sweden</a>, <a href="#" class="underline">finland</a>, <a href="#" class="underline">norway</a>, 
+       <a href="#" class="underline">cruise</a>, <a href="#" class="underline">public transport</a>, <a href="#" class="underline">ferry</a>, 
+       <a href="#" class="underline">transportation</a>, <a href="#" class="underline">autumn</a>, <a href="#" class="underline">spring</a>, 
+       <a href="#" class="underline">copenhagen</a>, <a href="#" class="underline">denmark</a>, <a href="#" class="underline">gdansk</a>, 
+       <a href="#" class="underline">poland</a>, </i>   
+    </div>
+      <div class="right-container">
+        <h4>Subscribe to Davids Travel blog via Email</h4>Enter your email address to subscribe to my blog and receive notifications of new posts by email.
+          <form action="/action_page.php">
+            <input type="email" placeholder="E-mail.." name="subscribe">
+            <button type="submit">Subscribe</button>
+          </form>
+         </div>
+            <div class="right-container">
+              <h4>Recent Comments</h4>
+              <p>1</p>
+              <p>2</p>
+              <p>3</p>
+              <p>4</p>
+            </div>
+          <div class="right-container"> 
+          <strong>Travel tip</strong> - The best comparison sites for hotels or flights;
+           <br><br><i>
+           <p>&#x2022;&nbsp;<a href="https://www.momondo.com/" class="underline">Momondo</p></a>  
+           <p>&#x2022;&nbsp;<a href="https://www.trivago.com/" class="underline">Trivago</p></a>
+           <p>&#x2022;&nbsp;<a href="https://www.skyscanner.com/" class="underline">Skyscanner</p></a>
+           <p>&#x2022;&nbsp;<a href="https://www.kayak.com/" class="underline">Kayak</p></a></i>
+           <p>&#x2022;&nbsp;<a href="https://www.tripadvisor.com/" class="underline">Tripadvisor</p></a></i>
+           <br>
+           <img src="img/hotel3.jpg" class="images-small"></img>
+         </div>
+         <div class="right-container-none"></div>
+       <a href="#" class="up-button"><i class="fa-solid fa-chevron-up"></i></a> 
+    </ul>
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="col-9">
+    <h3>My Travel Blog</h3>
+    <h4><i>“Jobs fill your pocket, but adventures fill your soul.”</i></h4>
+    <br>
+    <p>Welcome to my travel blog! The reason for creating this website with a travel blog is because it is part of a school project through Noroff 
+      vocational school where I will program a blog page using html, css and javascript. Here I write travel letters from various cities, countries 
+      or interesting places I have visited around the world. I love to travel to explore new cultures, food and customs. In particular, I am 
+      fascinated by Asian cultures, even though most travel letters are from Europe because it is geographically closest to where I live. In the 
+      navigation menu above you can click on parts of the world I have visited and in the menu on the right you can then click on each country I 
+      have visited to see the travel letters from there. On the first page of the website are the latest travel letters. My goal with the blog 
+      is to provide travel inspiration and write various stories from the places I have visited including great travel photos. Enjoy! &nbsp;<i>-David.</i></p>
+  </div>
+
+  <div class="col-9">
+   <div class="flex_container">
+    <div class="flex_item_right">
+     <a href="#" class="underline"><h3>Christmas on Color Line</h3></a>
+     <p>The international ferry routes from Norway to either Denmark or Germany tend to be very cheap. This is because they make good money from 
+        travelers spending money on board the ferry at the many restaurants, bars, activities on board or spending money in the taxfre shops. It is 
+        known that the prices of alcoholic products in Norway are quite high, so you can make many bargains in the duty-free shops. 
+        <br><br>
+        Every November or December, I and my family take a trip with color line to Kiel in Germany. Since I am a member of the color line club, I often
+        get good offers and the journey between Oslo and Kiel cost only NOK 398 per person when there are 2 of us sharing a cabin. It's very cheap for 
+        a 3 day mini cruise! <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+      </div>
+      <div class="flex_item_left">
+        <p><a href="trip"><img src="img/color_magic_line_kiel.jpg" class="images-large"></img></a></p>
+        <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">
+          cruise</a>, <a href="#" class="underline">Finland</a></i></div>
+      </div>
+    </div>
+  </div>
+
+<div class="col-9">
+  <div class="flex_container">
+    <div class="flex_item_right">
+      <div class="flex_container">
+        <div class="flex_text_left">
+          <a href="#" class="underline"><h3>One day in Kiel</h3></a>
+        </div>
+        <div class="flex_text_right">
+         <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">Kiel</a>, <a href="#" class="underline">Germany</a></i></div><br>
+    </div>
+  </div>
+   <p>The color line ferry from oslo is in port almost in the middle of kiel center from 10.00 - 14.00 so there is enough time to both eat and shop a bit with 
+      german prices that are quite a bit lower than the norwegian ones. It only takes 10 minutes to walk from the ferry into the center where there is a good 
+      selection of shops.
+      <br><br>
+      Kiel is a fairly large city with approximately 250,000 inhabitants in the very north of Germany. The city's location facing the sea makes it an important 
+      port city with, among other things, the German Navy's Baltic fleet and several vertfs. From Kiel you can also take the ferry to Sweden and Lithuania plus 
+      several cruise ships dock in the city. <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+      </div>
+      <div class="flex_item_left"><a href="trip"><img src="img/dfds4.JPG" class="images-large"></img></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-9">
+    <div class="flex_container">
+      <div class="flex_item_right">
+        <div class="flex_container">
+          <div class="flex_text_left">
+            <a href="#" class="underline"><h3>Christmas on DFDS</h3></a>
+          </div>
+          <div class="flex_text_right">
+           <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">cruiseferry</a>, <a href="#" class="underline">Denmark</a></i></div><br>
+      </div>
+    </div>
+     <p>Another ferry company that sails from Norway internationally is DFDS on the route Oslo - Copenhagen. They have older and smaller ferries than
+      Color Line's route Oslo - Kiel, but in return, the price for the tickets is cheaper and the destination Copenhagen is more exciting than Kiel.
+      <br><br>
+      I had not planned to travel with a mini-cruise with DFDS, but received a very good offer by email. They had a campaign to buy a mini cruise for
+      NOK 100, NOK 50 was donated to an organization that works to clean the sea of plastic waste. That is to say, in reality the ticket for the 
+      mini-cruise to/from Copenhagen cost including own cabin only NOK 50! <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+        </div>
+        <div class="flex_item_left"><a href="trip"><img src="img/dfds_pearl_seaways_copenhagen.jpg" class="images-large"></img></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-9">
+      <div class="flex_container">
+        <div class="flex_item_right">
+          <div class="flex_container">
+            <div class="flex_text_left">
+              <a href="#" class="underline"><h3>One day in Copenhagen</h3></a>
+            </div>
+            <div class="flex_text_right">
+             <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">Copenhagen</a>, <a href="#" class="underline">Denmark</a></i></div><br>
+        </div>
+      </div>
+       <p>I like Copenhagen. The capital of Denmark, which is an old city with a lot of history and a lot of great architecture! Copenhagen has 
+        approximately 660,000 inhabitants and is quite large with many opportunities as a tourist. The only downside is that it is more expensive in 
+        Copenhagen than elsewhere in Norway, and this is partly due to the high Danish krone exchange rate.
+        <br><br>
+        The DFDS Danish ferry docks in Nordhavn, which is about 15 minutes by public transport to the center of Copenhagen. Then I usually take a 
+        train from Nordhavn station, which is a short walk from the ferry dock. There are also buses that go directly from the ferry, but they run 
+        less often and take longer. A ticket within the city center cost DKK 24. <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+          </div>
+          <div class="flex_item_left"><a href="trip"><img src="img/dfds6.JPG" class="images-large"></img></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-9">
+        <div class="flex_container">
+          <div class="flex_item_right">
+            <div class="flex_container">
+              <div class="flex_text_left">
+                <a href="#" class="underline"><h3>Trip to Gdansk, Poland</h3></a>
+              </div>
+              <div class="flex_text_right">
+               <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">Gdansk</a>, <a href="#" class="underline">Poland</a></i></div><br>
+          </div>
+        </div>
+         <p>From Norway we have very cheap flights with Wizzair or Ryanair down to Poland. they can offer cheaper tickets due to, among other things,
+          Polish employees on the flights and they are a low cos carrier which means they charge for everything extra on the flight. I only paid NOK 
+          109 for the flight from Trondheim to Gdansk, but they charge a full NOK 550 for checked baggage, so here you have to travel with a small 
+          rucksack!
+          <br><br>
+          Gdansk offers a lot. The biggest reason why many Norwegians travel there is because Poland is very cheap! All food, tobacco and alcohol products are among 
+          the cheapest in Europe. Not only that, Poland has many fine cities with a lot of history and great architecture, this can also be said about Gdansk. <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+            </div>
+            <div class="flex_item_left"><a href="trip"><img src="img/gdansk_old_town.jpg" class="images-large"></img></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9">
+          <div class="flex_container">
+            <div class="flex_item_right">
+              <div class="flex_container">
+                <div class="flex_text_left">
+                  <a href="#" class="underline"><h3>Christmas tram in Trondheim</h3></a>
+                </div>
+                <div class="flex_text_right">
+                 <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">public transport</a>, <a href="#" class="underline">Trondheim</a>, <a href="#" class="underline">Norway</a></i></div><br>
+            </div>
+          </div>
+           <p>The tram in Trondheim is the world's northernmost tram, after they shut down the tram line in Arkhangelsk, Russia. It is only 8.8 km long,
+             starting in the middle of the city up to Lian in Bymarka, which is a popular hiking area in Trondheim. Work is underway to extend the tram 
+             line east to Lade and south to Saupstad. The track width is 1000 mm, which is unusual, as most tram networks have a track width of 1435 mm. 
+             Boreal Transport operates the tram in Trondheim on behalf of AtB, which is owned by Trøndelag County Municipality
+            <br><br>
+            Every December, one of the trams is decorated with Christmas lights outside and Christmas decorations inside. Sometimes the tram driver is also 
+            dressed in a Santa suit. We took a trip with the Christmas tram! <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+              </div>
+              <div class="flex_item_left"><a href="trip"><img src="img/christmas_tram_trondheim.jpg" class="images-large"></img></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9">
+            <div class="flex_container">
+              <div class="flex_item_right">
+                <div class="flex_container">
+                  <div class="flex_text_left">
+                    <a href="#" class="underline"><h3>First time in Warsaw</h3></a>
+                  </div>
+                  <div class="flex_text_right">
+                   <div class="slider-tags">26.Okt.2023 - Tags: <i><a href="#" class="underline">Warsaw</a>, <a href="#" class="underline">Poland</a></i></div><br>
+              </div>
+            </div>
+             <p>I like Copenhagen. The capital of Denmark, which is an old city with a lot of history and a lot of great architecture! Copenhagen has 
+              approximately 660,000 inhabitants and is quite large with many opportunities as a tourist. The only downside is that it is more expensive in 
+              Copenhagen than elsewhere in Norway, and this is partly due to the high Danish krone exchange rate.
+              <br><br>
+              The DFDS Danish ferry docks in Nordhavn, which is about 15 minutes by public transport to the center of Copenhagen. Then I usually take a 
+              train from Nordhavn station, which is a short walk from the ferry dock. There are also buses that go directly from the ferry, but they run 
+              less often and take longer. A ticket within the city center cost DKK 24. <a href="#" class="hover"><i class="fa-solid fa-angles-right"></i></a></p>
+                </div>
+                <div class="flex_item_left"><a href="trip"><img src="img/warsawa_old_town.jpg" class="images-large"></img></a>
+                </div>
+              </div>
+            </div>
+         </div>
+     <br>
+</body>
+<footer>
+  <div class="footer">
+    <br>
+      <div class="content">
+        <div class="footer-logo">
+          <img src="img/palm.gif" class="logo-footer">
+        </div>
+        <div class="social-media">
+          <h4>Social</h4>
+          <p><a href="#"><i class="fa-brands fa-pinterest-p">&nbsp;&nbsp;</i>Pinterest</a></p>
+          <p><a href="#"><i class="fab fa-instagram">&nbsp;&nbsp;</i>Instagram</a></p>
+          <p><a href="#"><i class="fa-brands fa-flickr">&nbsp;&nbsp;</i>Flickr</a></p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About</a></p>
+          <p><a href="about.html">Contact</a></p>
+        </div>
+        <div>
+          <img src="img/plane.gif" class="logo-footer">
+          <p>©2023 David’s Travel Blog</p> 
+       </div>
+     </div>
+   </footer>
+   <script src="js/nav.js"></script>
+</html>
