@@ -19,7 +19,7 @@ body {
   top: 21px;
   left: 17px;
   text-shadow: 2px 2px #e9e9e9;
-  font-size: 16px;
+  font-size: 35px;
 }
 /*navbar*/
 .nav {
@@ -115,30 +115,102 @@ body {
     text-align: left;
   }
 }
-
 .first-heading{
   padding: 7px 0% 0% 1.3%;
 }
-/*text-containers*/
-.flex-container {
+/* slider */
+.carousel {
+  width: 100%; /* Width of carousel */
+ /* Height of carousel */
+  display: flex; /* Set inline elements */
+  align-items: center; /* Centering elements */
+  padding: 1px;
+}
+.button {
+  position: relative; /* Set button in right position */
+  width: 42px; /* Width of button */
+  height: 51px; /* Height of button */
+  /* Style button */
+  background: #127357;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 17.9px;
+  opacity: 0.6;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#button-back {
+  right: calc(100% - 8px); /* For set button in left position */
+  border-radius: 0 50% 50% 0; /* Set border radius */
+}
+#button-next {
+  right: 53.3px; /* For set button in right position */
+  border-radius: 50% 0 0 50%; /* Set border radius */
+}
+.card-container {
+  width: 100%; /* Width of card container */
+  display: flex; /* Set inline elements */
+  margin: 8px 8px 5px 8px; /* Set margin */
+  overflow-x: auto; /* Set overflow in horizontal scroll */
+  overflow-y: hidden; /* Hidden overflow in vertical scroll */
+  scroll-snap-type: x mandatory; /* Force the scroll to snap to the start of a scroll-snap area */
+  gap: 8px; /* Set gap between cards */
+  flex: 0 0 calc(100% - 16px); /* Set width of card container */
+}
+.card-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari and Opera */
+}
+.card {
+  min-width: 301px; /* Set min width of card */
+  scroll-snap-align: start; /* Set scroll snap */
+  /* Style card */
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  border: 2px solid #73AD21;
+  background-color: rgb(236, 250, 253);
+}
+.card p{
+  padding: 1px;
+}
+.card h3{
+  padding: 1.5px;
+}
+.slider-image{
+    width: 100%;
+    padding: 0.7%;
+}
+.slider-text {
   font-size: 15px;
   text-align: center;
+  padding: 1px;
 }
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 70%;
+.slider-tags{
+  font-size: 14px;
+  font-family: 'Arial Narrow';
 }
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 2px;
-  flex: 30%;
+.underline:hover{
+  text-decoration: underline;
+  color:#00471b;
 }
-@media (max-width: 800px) {
-  .flex-item-right, .flex-item-left {
-    flex: 100%;
+.hover:hover{
+  color:#008633;
+}
+@media (max-width: 870px) {
+  .card {
+    min-width: 237px;
+  }
+  .card p {
+    font-size: 0;
+  }
+  .right-container-none{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    background-color: rgb(236, 250, 253);
+    height: 2300px;
   }
 }
 /*body*/
@@ -307,101 +379,29 @@ body {
   width: 100%;
  }
 }
-/* slider */
-  .carousel {
-    width: 100%; /* Width of carousel */
-   /* Height of carousel */
-    display: flex; /* Set inline elements */
-    align-items: center; /* Centering elements */
+/*text-containers*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  text-align: center;
+}
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 70%;
+}
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 2px;
+  flex: 30%;
+}
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
   }
-  .button {
-    position: relative; /* Set button in right position */
-    width: 40px; /* Width of button */
-    height: 49px; /* Height of button */
-    /* Style button */
-    background: #127357;
-    color: #fff;
-    border: 1px solid #000;
-    cursor: pointer;
-    font-size: 17.9px;
-    opacity: 0.6;
-  }
-  .button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  #button-back {
-    right: calc(100% - 8px); /* For set button in left position */
-    border-radius: 0 50% 50% 0; /* Set border radius */
-  }
-  #button-next {
-    right: 53.3px; /* For set button in right position */
-    border-radius: 50% 0 0 50%; /* Set border radius */
-  }
-  .card-container {
-    width: 100%; /* Width of card container */
-    display: flex; /* Set inline elements */
-    margin: 8px 8px 5px 8px; /* Set margin */
-    overflow-x: auto; /* Set overflow in horizontal scroll */
-    overflow-y: hidden; /* Hidden overflow in vertical scroll */
-    scroll-snap-type: x mandatory; /* Force the scroll to snap to the start of a scroll-snap area */
-    gap: 8px; /* Set gap between cards */
-    flex: 0 0 calc(100% - 16px); /* Set width of card container */
-  }
-  .card-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome, Safari and Opera */
-  }
-  .card {
-    min-width: 301px; /* Set min width of card */
-    scroll-snap-align: start; /* Set scroll snap */
-    /* Style card */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 9px;
-    border: 2px solid #73AD21;
-    background-color: rgb(236, 250, 253);
-  }
-  .card p{
-    padding: 1px;
-  }
-  .card h3{
-    padding: 1.5px;
-  }
-  .slider-image
-  {
-      width: 100%;
-      padding: 0.7%;
-  }
-  .slider-text {
-    font-size: 15px;
-    text-align: center;
-    padding: 1px;
-  }
-  .slider-tags{
-    font-size: 14px;
-    font-family: 'Brush Script MT', cursive;
-  }
-  .underline:hover{
-    text-decoration: underline;
-    color:#00471b;
-  }
-  .hover:hover{
-    color:#008633;
-  }
-  @media (max-width: 870px) {
-    .card {
-      min-width: 237px;
-    }
-    .card p {
-      font-size: 0;
-    }
-    .right-container-none{
-      border-radius: 25px;
-      border: 2px solid #73AD21;
-      background-color: rgb(236, 250, 253);
-      height: 2300px;
-    }
-  }
+}
+
  
 
   .up-button {
